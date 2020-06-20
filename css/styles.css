@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h2, .h2 {
@@ -6269,7 +6269,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6293,8 +6293,12 @@ button.bg-dark:focus {
 }
 
 .bg-black2 {
-  background: rgb(75,0,130);
-  background: linear-gradient(0deg, rgba(75,0,130,1) 0%, rgba(0,0,0,1) 50%);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(75,0,130,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.bg-black3 {
+  background-color: #ffffff !important;
 }
 
 a.bg-black:hover, a.bg-black:focus,
@@ -10013,8 +10017,28 @@ a.text-black:hover, a.text-black:focus {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.mast-desc-text-white-50 {
+  color: #ffffff !important;
+}
+
+.about-desc-text-white-50 {
+  color: #ffffff !important;
+}
+
+.testimonials-text {
+  color: #000000 !important;
+}
+
+.benefit-desc-text-white-50 {
+  color: #ffffff !important;
+}
+
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(0, 0, 0, 100) !important;
+}
+
+.text-white2-50 {
+  color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .text-hide {
@@ -10277,10 +10301,16 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #4b0082 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(75,0,130,1) 45%, rgba(0,0,0,1) 100%);
 }
+
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.testimonials-section p {
+  margin-top: 5rem;
 }
 
 .projects-section {
@@ -10354,13 +10384,13 @@ body {
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(75, 0, 130, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(75, 0, 130, 0.3);
 }
 .contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(120, 0, 207, 0.5);
 }
 .contact-section .social a:active {
   color: #fff;
@@ -10370,9 +10400,19 @@ body {
   padding: 5rem 0;
 }
 
-.benefits 
+.services 
 {
 text-size-adjust: 80%;
 text-align: center;
 color: #4b0082;
+}
+
+.testimonials-description
+{
+color: rgba(0, 0, 0, 0.5);
+}
+
+.orange-text
+{
+  color: gold;
 }
